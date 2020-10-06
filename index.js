@@ -11,11 +11,15 @@ const tutorials = [
   'what is JSONP?'
 ];
 
-function capitalize(str){
-  return str.charAt(0).toUpperCase();
-}
+// function capitalize(str){
+//   return str.charAt(0).toUpperCase();
+// }
 
 const titleCased = () => tutorials.map(function(element){
   return element.split(' ')
-  
+
 });
+
+// let rollCall = students.map(function(student) {
+//   return student + " the wizard";
+// });

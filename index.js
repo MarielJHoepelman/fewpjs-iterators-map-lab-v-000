@@ -12,12 +12,11 @@ const tutorials = [
 ];
 
 const titleCased = () => tutorials.map(function(element) {
-  let str = [];
   let arr = element.split(" ")
 
-  // str = arr.map(function(e) {
-  //   return e.charAt(0).toUpperCase() + e.slice(1)
-  // })
+  const str = arr.map(function(e) {
+    return e.charAt(0).toUpperCase() + e.slice(1)
+  })
   // console.log(str)
   //[ "What", "Does", "This"...]
 

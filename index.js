@@ -22,7 +22,7 @@ const titleCased = () => tutorials.map(function(element) {
   for (const e of element.split(" ")){
     console.log(e)
     // str.push(capitalize(e));
-    let capitalize = e.charAt(0).toUpperCase() + str.slice(1
+    capitalize = e.charAt(0).toUpperCase() + str.slice(1
     str.push(capitalize)
   };
   return str.join(" ");

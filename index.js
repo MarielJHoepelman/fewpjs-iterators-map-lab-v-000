@@ -13,6 +13,6 @@ const tutorials = [
 
 // const titleCased = collection
 
-const titleCased = () => collection.map(function(element){
+const titleCased = () => tutorials.map(function(element){
   console.log(element);
 });

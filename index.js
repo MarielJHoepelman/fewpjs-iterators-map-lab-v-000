@@ -15,4 +15,6 @@ const tutorials = [
 
 const titleCased = () => tutorials.map(function(element){
   return element.split(' ')
+  //capitalized
+  //join back
 });

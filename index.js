@@ -23,7 +23,3 @@ const titleCased = () => tutorials.map(function(element){
   }
   return str.join(" ");
 });
-
-// let rollCall = students.map(function(student) {
-//   return student + " the wizard";
-// });

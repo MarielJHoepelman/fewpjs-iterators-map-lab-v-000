@@ -16,9 +16,7 @@ function capitalize(str){
 }
 
 
-const titleCased = () => tutorials.map(function(element){
-  console.log(element)
-});
+const titleCased = () => tutorials.map(capitalize(element));
 
 // let rollCall = students.map(function(student) {
 //   return student + " the wizard";

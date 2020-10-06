@@ -20,4 +20,4 @@ const tutorials = [
 //
 // });
 //
-const titleCased = () => tutorials.map(letter => letter.charAt(0).toUpperCase() + letter.slice(1));
+const titleCased = tutorials.map(letter => letter.charAt(0).toUpperCase() + letter.slice(1));

@@ -15,6 +15,4 @@ const tutorials = [
 
 const titleCased = () => tutorials.map(function(element){
   return element.split(' ').toUpperCase()
-  //splice it
-  //capitalized
 });

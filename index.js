@@ -18,7 +18,7 @@ function capitalize(str){
 
 const titleCased = () => tutorials.map(function(element){
   for (const e of element.split(' ')) {
-    console.log(e)
+    capitalize(e)
   }
 
   return element;

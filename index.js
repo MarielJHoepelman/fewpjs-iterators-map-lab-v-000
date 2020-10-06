@@ -13,8 +13,8 @@ const tutorials = [
 
 function capitalize(str){
   let words = str.split(" ")
+  let capitalizedWord;
   for (const char of words) {
-    let capitalizedWord;
      capitalizedWord + char.charAt(0).toUpperCase();
   }
   return capitalizedWord

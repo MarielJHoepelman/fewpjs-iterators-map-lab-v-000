@@ -14,9 +14,8 @@ const tutorials = [
 function capitalize(str){
   return str.charAt(0).toUpperCase();
 }
-//
-// const titleCased = () => tutorials.map(function(element){
-//   return element.split(' ')
-//   //capitalized
-//   //join back
-// });
+
+const titleCased = () => tutorials.map(function(element){
+  return element.split(' ')
+  
+});

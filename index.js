@@ -17,6 +17,7 @@ function capitalize(str){
     let capitalizedWord;
      capitalizedWord + char.charAt(0).toUpperCase();
   }
+  return capitalizedWord
 }
 
 // const titleCased = () => tutorials.map(function(element){

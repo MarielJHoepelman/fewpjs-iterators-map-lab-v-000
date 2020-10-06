@@ -14,6 +14,6 @@ const tutorials = [
 // const titleCased = tutorials => tutorials.map ();
 function titleCased(array, fn) {
   for (const element of array) {
-    console.log(element)
+    console.log(element);
   }
 }

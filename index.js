@@ -13,7 +13,9 @@ const tutorials = [
 
 function capitalize(str){
   let array = str.split();
-
+  for (const index of array) {
+    
+  }
 }
 
 // const titleCased = () => tutorials.map(function(element){

@@ -22,8 +22,7 @@ const titleCased = () => tutorials.map(function(element){
     str.push(capitalize(e));
 
   }
-  str.join(" ")
-  return element;
+  return str.join(" ");
 });
 
 // let rollCall = students.map(function(student) {

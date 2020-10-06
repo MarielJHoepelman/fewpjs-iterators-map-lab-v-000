@@ -13,7 +13,7 @@ const tutorials = [
 
 function capitalize(str){
   let array = [];
-  str.split();
+  array+= str.split();
 
 }
 

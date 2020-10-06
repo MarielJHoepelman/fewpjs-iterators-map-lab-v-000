@@ -12,8 +12,7 @@ const tutorials = [
 ];
 
 function capitalize(str){
-  let array = [];
-  array+= str.split();
+  let array = str.split();
 
 }
 

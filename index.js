@@ -22,7 +22,7 @@ const titleCased = () => tutorials.map(function(element){
     str.push(capitalize(e));
 
   }
-  console.log(str)
+  str.join(" ")
   return element;
 });
 

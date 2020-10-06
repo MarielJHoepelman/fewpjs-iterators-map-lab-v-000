@@ -13,10 +13,10 @@ const tutorials = [
 
 const capitalize = (tutorials) => {
   for (const content in str) {
-    
+
   }
 }
-// 
+//
 // const titleCased = () => tutorials.map(function(element){
 //   return element.split(' ')
 //   //capitalized

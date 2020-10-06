@@ -19,3 +19,9 @@ const titleCased = () => tutorials.map(function(element) {
   })
   return str.join(" ");
 });
+
+// with a loop
+//
+// for (const e of element.split(" ")){
+//   str.push(e.charAt(0).toUpperCase() + e.slice(1))
+// };

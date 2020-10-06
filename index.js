@@ -27,6 +27,7 @@ const tutorials = [
 // };
 
 const titleCased = () => tutorials.map(function(element) {
+let str = [];
   let arr = element.split(" ")
 
   for (const e of element.split(" ")){

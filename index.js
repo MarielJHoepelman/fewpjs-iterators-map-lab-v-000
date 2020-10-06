@@ -12,10 +12,7 @@ const tutorials = [
 ];
 
 function capitalize(str){
-  let array = str.split();
-  for (const index of array) {
-    
-  }
+  return str.charAt(0).toUpperCase() + str.slice(1)
 }
 
 // const titleCased = () => tutorials.map(function(element){

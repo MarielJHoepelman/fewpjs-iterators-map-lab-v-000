@@ -11,7 +11,7 @@ const tutorials = [
   'what is JSONP?'
 ];
 
-const titleCased = collection
+// const titleCased = collection
 
 let titleCased = collection.map(function(element){
   console.log(element);

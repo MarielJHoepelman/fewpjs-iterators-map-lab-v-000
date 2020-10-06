@@ -18,7 +18,7 @@ const tutorials = [
 
 const titleCased = () => tutorials.map(function(element) {
   let str = [];
-  for (const e of element{
+  for (const e of element.spli(" ")){
     console.log(e)
-  });
+  };
 });

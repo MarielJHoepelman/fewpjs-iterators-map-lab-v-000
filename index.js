@@ -21,4 +21,4 @@ const titleCased = () => tutorials.map(function(element) {
   for (const e of element{
     console.log(e)
   });
-})
+});

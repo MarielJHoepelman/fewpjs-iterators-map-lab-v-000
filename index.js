@@ -11,10 +11,8 @@ const tutorials = [
   'what is JSONP?'
 ];
 
-const capitalize = (tutorials) => {
-  for (const index in str) {
-    console.log(index)
-  }
+function capitalize(str){
+  str.charAt(0).toUpperCase();
 }
 //
 // const titleCased = () => tutorials.map(function(element){

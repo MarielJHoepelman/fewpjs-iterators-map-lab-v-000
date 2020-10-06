@@ -16,4 +16,3 @@ const tutorials = [
 const titleCased = () => collection.map(function(element){
   console.log(element);
 });
-

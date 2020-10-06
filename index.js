@@ -15,9 +15,7 @@ const tutorials = [
 //   return str.charAt(0).toUpperCase() + str.slice(1)
 // }
 
-//
-// const titleCased = () => tutorials.map(function(element){
-//
-// });
-//
-const titleCased = tutorials.map(letter => letter.charAt(0).toUpperCase() + letter.slice(1));
+
+const titleCased = () => tutorials.map(function(element){
+
+});

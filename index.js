@@ -12,12 +12,9 @@ const tutorials = [
 ];
 
 function capitalize(str){
-  let words = str.split(" ")
-  let capitalizedWord;
-  for (const char of words) {
-     capitalizedWord + char.charAt(0).toUpperCase();
-  }
-  return capitalizedWord
+  let array = [];
+  str.split();
+
 }
 
 // const titleCased = () => tutorials.map(function(element){

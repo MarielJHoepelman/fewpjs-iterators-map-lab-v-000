@@ -13,8 +13,6 @@ const tutorials = [
 
 function capitalize(str){
   return str.split(" ").charAt(0).toUpperCase();
-  str.join
-
 }
 
 // const titleCased = () => tutorials.map(function(element){

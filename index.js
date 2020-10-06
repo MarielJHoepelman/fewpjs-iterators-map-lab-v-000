@@ -15,11 +15,9 @@ function capitalize(str){
   return str.charAt(0).toUpperCase() + str.slice(1)
 }
 
-
-const titleCased = () => tutorials.map(function(element){
-  capitalize
-});
-
-// let rollCall = students.map(function(student) {
-//   return student + " the wizard";
+//
+// const titleCased = () => tutorials.map(function(element){
+//
 // });
+//
+const titleCased = () => tutorials.map(letter => letter.charAt(0).toUpperCase() + str.slice(1));

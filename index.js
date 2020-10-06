@@ -14,7 +14,7 @@ const tutorials = [
 // const titleCased = collection
 
 const titleCased = () => tutorials.map(function(element){
-  return element
+  return element.split(' ')
   //splice it
   //capitalized
 });

@@ -12,14 +12,15 @@ const tutorials = [
 ];
 
 function capitalize(str){
-  str.split(" ");
-  str.charAt(0).toUpperCase();
+  return str.split(" ").charAt(0).toUpperCase();
+  str.join
+
 }
 
-const titleCased = () => tutorials.map(function(element){
-  
-
-});
+// const titleCased = () => tutorials.map(function(element){
+//
+//
+// });
 
 // let rollCall = students.map(function(student) {
 //   return student + " the wizard";

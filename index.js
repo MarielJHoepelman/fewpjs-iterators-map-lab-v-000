@@ -12,7 +12,7 @@ const tutorials = [
 ];
 
 const titleCased = () => tutorials.map(function(element) {
-  let str = [];
+  const str = [];
 
 
 

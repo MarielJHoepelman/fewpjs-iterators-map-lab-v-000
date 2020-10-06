@@ -20,7 +20,7 @@ const titleCased = () => tutorials.map(function(element){
   let str = [];
   for (const e of element.split(' ')) {
     str.push(capitalize(e));
-
+    console.log(str)
   }
 
   return element;

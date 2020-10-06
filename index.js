@@ -18,10 +18,11 @@ const titleCased = () => tutorials.map(function(element) {
   str = arr.map(function(e) {
     return e.charAt(0).toUpperCase() + e.slice(1)
   })
+  //[ "What", "Does", "This"...]
 
-  for (const e of element.split(" ")){
-    str.push(e.charAt(0).toUpperCase() + e.slice(1))
-  };
+  // for (const e of element.split(" ")){
+  //   str.push(e.charAt(0).toUpperCase() + e.slice(1))
+  // };
 
   // let str = [];
   // for (const e of element.split(" ")){

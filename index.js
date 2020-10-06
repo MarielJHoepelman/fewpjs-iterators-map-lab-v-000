@@ -12,8 +12,8 @@ const tutorials = [
 ];
 
 const capitalize = (tutorials) => {
-  for (const content in str) {
-
+  for (const index in str) {
+    console.log(index)
   }
 }
 //
